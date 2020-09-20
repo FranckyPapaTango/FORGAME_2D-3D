@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layout" android:background="#0404b4" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="#cef6d8" android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:text="SMALLWAVE TEST POUR JEUX 2D-3D"/>
+    <Button android:textColor="#f5a9a9" android:layout_gravity="top" android:id="@+id/demarrer_btn" android:background="#5858fa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="DEMARRER 2D"/>
+    <Button android:textColor="#ffffff" android:layout_gravity="top" android:id="@+id/config_btn" android:background="#5858fa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="DEMARRER 3D"/>
+    <TableRow android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:background="#5fb404" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginBottom="15dp">
+        <ImageView android:id="@+id/img" android:layout_width="0dp" android:layout_height="90dp" android:src="@drawable/ic_launcher_b" android:layout_weight="1"/>
+        <Button android:textColor="#cef6d8" android:id="@+id/owner_btn" android:background="#5858fa" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginRight="30dp" android:text="Click for Info" android:layout_weight="1"/>
+    </TableRow>
+    <Button android:textColor="#f7fe2e" android:layout_gravity="top" android:id="@+id/notices_btn" android:background="#5858fa" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DEMARRER 4D !"/>
+</LinearLayout>
